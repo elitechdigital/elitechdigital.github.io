@@ -117,7 +117,7 @@ input[type=radio]:checked {
 }
 
 html{
-  font-size: 62.5%;
+  font-size: 55.5%;
   overflow-x: hidden;
   scroll-padding-top: 6.5rem;
   scroll-behavior: smooth;
@@ -1076,7 +1076,7 @@ transform: translateY(-2px);
   font-family: monospace;
 }
 .wrapper .buttons{
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #ffffff;
 }
 .buttons .features{
   display: flex;
