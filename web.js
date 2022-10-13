@@ -101,10 +101,10 @@ const master = document.getElementById("master");
 const basic = document.getElementById("basic");
 
 checkbox.addEventListener("click", () => {
-  basic.textContent = basic.textContent === "Ksh 7000" ? "Ksh 7500" : "Ksh 7000";
+  basic.textContent = basic.textContent === "$70" ? "$75" : "$70";
   professional.textContent =
-    professional.textContent === "Ksh 14000" ? "Ksh 15000 " : "Ksh 14000";
-  master.textContent = master.textContent === "Ksh 23000" ? "Ksh 25000" : "Ksh 23000";
+    professional.textContent === "$140" ? "$150" : "$140";
+  master.textContent = master.textContent === "$230" ? "$250" : "$230";
 });
 
 
